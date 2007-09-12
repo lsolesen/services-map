@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Services_Map</name>
+ <uri>http://localhost/</uri>
+ <summary>xx</summary>
+ <description>xx</description>
+ <lead>
+  <name>Lars Olesen</name>
+  <user>lsolesen</user>
+  <email>lars@legestue.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-06-12</date>
+ <time>03:40:48</time>
+ <version>
+  <release>0.0.1</release>
+  <api>0.0.1</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL License</license>
+ <notes>x</notes>
+ <contents>
+  <dir baseinstalldir="Services" name="/">
+   <dir name="docs">
+    <dir name="examples">
+     <file name="example.php" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="mark.php" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+    </dir> <!-- /docs/examples -->
+   </dir> <!-- /docs -->
+   <dir name="Map">
+    <dir name="Writer">
+     <dir name="Google">
+      <file name="Common.php" role="php">
+       <tasks:replace from="@package-version@" to="version" type="package-info" />
+      </file>
+      <file name="Exception.php" role="php">
+       <tasks:replace from="@package-version@" to="version" type="package-info" />
+      </file>
+      <file name="Geocoder.php" role="php">
+       <tasks:replace from="@package-version@" to="version" type="package-info" />
+      </file>
+      <file name="GIcon.php" role="php">
+       <tasks:replace from="@package-version@" to="version" type="package-info" />
+      </file>
+      <file name="GLatLng.php" role="php">
+       <tasks:replace from="@package-version@" to="version" type="package-info" />
+      </file>
+      <file name="GMarker.php" role="php">
+       <tasks:replace from="@package-version@" to="version" type="package-info" />
+      </file>
+      <file name="GPoint.php" role="php">
+       <tasks:replace from="@package-version@" to="version" type="package-info" />
+      </file>
+      <file name="GSize.php" role="php">
+       <tasks:replace from="@package-version@" to="version" type="package-info" />
+      </file>
+     </dir> <!-- /Map/Writer/Google -->
+     <file name="Google.php" role="php">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="GoogleMaps.php" role="php">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="Microformat.php" role="php">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="Yahoo.php" role="php">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+    </dir> <!-- /Map/Writer -->
+    <file name="Marker.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="MarkerCollection.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="Writer.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+   </dir> <!-- /Map -->
+   <dir name="tests">
+    <file name="AllTests.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="MapTest.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="MarkerCollectionTest.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+   </dir> <!-- /tests -->
+   <file name="makepackage.php" role="php">
+    <tasks:replace from="@package-version@" to="version" type="package-info" />
+   </file>
+   <file name="Map.php" role="php">
+    <tasks:replace from="@package-version@" to="version" type="package-info" />
+   </file>
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.5.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-06-12</date>
+   <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL License</license>
+   <notes>x</notes>
+  </release>
+ </changelog>
+</package>
